@@ -6,22 +6,17 @@
 
 body {
 	display: flex;
-	/* we want content vertically so we did flex direction coloumn */
 	flex-direction: column;
 	background-color: #242333;
 	color: white;
-	/* align-item center will horizontally center the content */
 	align-items: center;
-	/* justify content will align content vertically */
 	justify-content: center;
-	/* min height will give the whole content a height of 100vh so the content can be centered */
 	min-height: 100vh;
 	margin: 0;
 	font-family: "lato", sans-serif;
 }
 
 .movie-container {
-	/* topBotton leftRight */
 	margin: 20px 0;
 }
 
@@ -30,7 +25,6 @@ body {
 	border: 0;
 	border-radius: 5px;
 	font-size: 14px;
-	/* top right bottom left */
 	margin-left: 10px;
 	padding: 5px 15px 5px 15px;
 	/* if padding didn't work on mac use the following  */
